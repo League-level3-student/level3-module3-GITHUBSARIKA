@@ -4,7 +4,8 @@ public class Cow extends Animal {
 
 	@Override
 	void makeNoise() {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub\
+		System.out.println("cow");
 		
 	}
 

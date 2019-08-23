@@ -1,3 +1,4 @@
+
 package _02_Cities;
 
 public class LosAngeles extends City{
@@ -9,7 +10,8 @@ public class LosAngeles extends City{
 
 	@Override
 	double getAnnualTaxes() {
-		return 0;
+		double y=(population*growthRate)*(growthRate*0.5);
+		return y;
 	}
 	
 }
